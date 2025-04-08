@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+  width: 400px;
+  border-radius: 14px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.social-links {
+  list-style: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px 0;
+  border-radius: 6px;
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+
+  a {
+    color: hsl(0, 0%, 20%);
+  }
+}
+
+h2 {
+  color: white;
+  margin-top: 24px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  color: white;
+  font-weight: 300;
+  margin: 18px 10px;
+}
